@@ -189,3 +189,12 @@ button {
     border-color: #F9FAF8;
     flex: none;
 }
+
+/* FOOTER */
+
+.footer {
+    padding: 20px 200px;
+    background-color: #1F2937;
+    color: rgb(192,195,220);
+    text-align: center;
+}
