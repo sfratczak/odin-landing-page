@@ -141,6 +141,12 @@ button {
 
 .quote {
     max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    max-width: 800px;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
