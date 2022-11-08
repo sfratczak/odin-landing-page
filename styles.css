@@ -11,6 +11,20 @@ body {
     margin: 0 auto;
 }
 
+button {
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.textstyle-small {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* HEADER */
 .header {
     height: 72px;
     padding: 0 200px;
@@ -34,6 +48,38 @@ body {
 
 .header a {
     text-decoration: none;
-    font-size: 18px;
-    color: #E5E7EB;
+}
+
+/* HERO SECTION */
+.hero-section {
+    height: 300px;
+    padding: 50px 200px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-left * {
+    margin-bottom: 12px;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+.hero-right {
+    height: 220px;
+    background-color: rgb(110,116,124);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
