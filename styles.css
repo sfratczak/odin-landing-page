@@ -5,7 +5,8 @@
 }
 
 body {
-    width: 1400px;
+    max-width: 1400px;
+    background-color: #dae9ff;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -26,8 +27,7 @@ button {
 
 /* HEADER */
 .header {
-    height: 72px;
-    padding: 0 200px;
+    padding: 20px 200px;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -38,31 +38,28 @@ button {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    flex: none;
+    padding-right: 24px;
 }
 
-.header ul {
+.header-links {
     list-style-type: none;
     display: flex;
     gap: 24px;
 }
 
-.header a {
+.header-links a {
     text-decoration: none;
 }
 
 /* HERO SECTION */
 .hero-section {
-    height: 300px;
-    padding: 50px 200px;
+    padding: 100px 200px;
     background-color: #1F2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 28px;
-}
-
-.hero-left {
-    flex: 1;
 }
 
 .hero-left * {
@@ -72,13 +69,14 @@ button {
 .hero-left h1 {
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
 .hero-right {
-    height: 220px;
+    height: 250px;
+    width: 500px;
     background-color: rgb(110,116,124);
-    flex: 1;
+    flex: none;
     display: flex;
     justify-content: center;
     align-items: center;
