@@ -25,6 +25,12 @@ button {
     color: #E5E7EB;
 }
 
+.textstyle-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
 /* HEADER */
 
 .header {
@@ -36,9 +42,6 @@ button {
 }
 
 .header-logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #F9FAF8;
     flex: none;
     padding-right: 24px;
 }
@@ -159,4 +162,30 @@ button {
     font-weight: bold;
     align-self: flex-end;
     padding-right: 75px;
+}
+
+/* CALL TO ACTION SECTION */
+
+.calltoaction-section {
+    padding: 100px 200px;
+    background-color: white;
+    display: flex;
+}
+
+.calltoaction-window {
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 12px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.calltoaction-window button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F9FAF8;
+    flex: none;
 }
